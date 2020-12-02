@@ -2,8 +2,6 @@ const data = require('../../assets/dataCurso')
 const cursoController = {
 
     index: (req, res) => {
-
-
         res.render('index', { data })
     },
 
